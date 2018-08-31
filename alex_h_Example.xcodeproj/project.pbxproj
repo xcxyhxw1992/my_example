@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9192E4E47DAE31185BD742BC /* libPods-alex_h_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A2941CA8B98CDE502C67CEBD /* libPods-alex_h_Example.a */; };
+		96A572E22138EB890024FFC6 /* base_TabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A572E12138EB890024FFC6 /* base_TabbarViewController.m */; };
+		96A572E8213920E90024FFC6 /* base_NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A572E7213920E90024FFC6 /* base_NavigationController.m */; };
+		96A572EB213920FD0024FFC6 /* base_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A572EA213920FD0024FFC6 /* base_ViewController.m */; };
+		96A572F8213934AF0024FFC6 /* base_WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A572F7213934AF0024FFC6 /* base_WebViewController.m */; };
 		96DD2BD12136713E00CBED28 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DD2BD02136713E00CBED28 /* AppDelegate.m */; };
 		96DD2BD42136713E00CBED28 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DD2BD32136713E00CBED28 /* ViewController.m */; };
 		96DD2BD72136713E00CBED28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96DD2BD52136713E00CBED28 /* Main.storyboard */; };
@@ -17,6 +22,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		16746B1351804DFDE406A7B3 /* Pods-alex_h_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alex_h_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-alex_h_Example/Pods-alex_h_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		96A572E02138EB890024FFC6 /* base_TabbarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = base_TabbarViewController.h; sourceTree = "<group>"; };
+		96A572E12138EB890024FFC6 /* base_TabbarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = base_TabbarViewController.m; sourceTree = "<group>"; };
+		96A572E6213920E90024FFC6 /* base_NavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = base_NavigationController.h; sourceTree = "<group>"; };
+		96A572E7213920E90024FFC6 /* base_NavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = base_NavigationController.m; sourceTree = "<group>"; };
+		96A572E9213920FD0024FFC6 /* base_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = base_ViewController.h; sourceTree = "<group>"; };
+		96A572EA213920FD0024FFC6 /* base_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = base_ViewController.m; sourceTree = "<group>"; };
+		96A572F6213934AF0024FFC6 /* base_WebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = base_WebViewController.h; sourceTree = "<group>"; };
+		96A572F7213934AF0024FFC6 /* base_WebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = base_WebViewController.m; sourceTree = "<group>"; };
 		96DD2BCC2136713E00CBED28 /* alex_h_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = alex_h_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96DD2BCF2136713E00CBED28 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		96DD2BD02136713E00CBED28 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -28,6 +42,8 @@
 		96DD2BDE2136713F00CBED28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96DD2BE02136713F00CBED28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96DD2BE12136713F00CBED28 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		97A37C3FC6964DF6A52BB5C4 /* Pods-alex_h_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alex_h_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-alex_h_Example/Pods-alex_h_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A2941CA8B98CDE502C67CEBD /* libPods-alex_h_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-alex_h_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +51,161 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9192E4E47DAE31185BD742BC /* libPods-alex_h_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2CEDCFD92A2A49169DBE3211 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				16746B1351804DFDE406A7B3 /* Pods-alex_h_Example.debug.xcconfig */,
+				97A37C3FC6964DF6A52BB5C4 /* Pods-alex_h_Example.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		96A572DB2138EA310024FFC6 /* 服务 */ = {
+			isa = PBXGroup;
+			children = (
+				96A572F4213931420024FFC6 /* IM */,
+				96A572EF213928DE0024FFC6 /* 推送 */,
+				96A572EE213928B50024FFC6 /* 支付 */,
+				96A572ED213928B30024FFC6 /* 分享 */,
+				96A572EC213928B00024FFC6 /* 登录 */,
+			);
+			path = "服务";
+			sourceTree = "<group>";
+		};
+		96A572DC2138EA350024FFC6 /* 功能 */ = {
+			isa = PBXGroup;
+			children = (
+				96A572FB21393FD40024FFC6 /* 动画 */,
+				96A572FA213935B80024FFC6 /* 加载刷新 */,
+				96A572F9213934DA0024FFC6 /* 警示器 */,
+				96A572F321392B2A0024FFC6 /* 选择器 */,
+				96A572F221392B0D0024FFC6 /* 循环广告 */,
+				96A572F121392AF70024FFC6 /* 视频播放 */,
+				96A572F021392AE70024FFC6 /* 拍照 */,
+			);
+			path = "功能";
+			sourceTree = "<group>";
+		};
+		96A572DD2138EA370024FFC6 /* EXtension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = EXtension;
+			sourceTree = "<group>";
+		};
+		96A572DF2138EA6C0024FFC6 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				96A572E02138EB890024FFC6 /* base_TabbarViewController.h */,
+				96A572E12138EB890024FFC6 /* base_TabbarViewController.m */,
+				96A572E6213920E90024FFC6 /* base_NavigationController.h */,
+				96A572E7213920E90024FFC6 /* base_NavigationController.m */,
+				96A572E9213920FD0024FFC6 /* base_ViewController.h */,
+				96A572EA213920FD0024FFC6 /* base_ViewController.m */,
+				96A572F6213934AF0024FFC6 /* base_WebViewController.h */,
+				96A572F7213934AF0024FFC6 /* base_WebViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		96A572EC213928B00024FFC6 /* 登录 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "登录";
+			sourceTree = "<group>";
+		};
+		96A572ED213928B30024FFC6 /* 分享 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "分享";
+			sourceTree = "<group>";
+		};
+		96A572EE213928B50024FFC6 /* 支付 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "支付";
+			sourceTree = "<group>";
+		};
+		96A572EF213928DE0024FFC6 /* 推送 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "推送";
+			sourceTree = "<group>";
+		};
+		96A572F021392AE70024FFC6 /* 拍照 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "拍照";
+			sourceTree = "<group>";
+		};
+		96A572F121392AF70024FFC6 /* 视频播放 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "视频播放";
+			sourceTree = "<group>";
+		};
+		96A572F221392B0D0024FFC6 /* 循环广告 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "循环广告";
+			sourceTree = "<group>";
+		};
+		96A572F321392B2A0024FFC6 /* 选择器 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "选择器";
+			sourceTree = "<group>";
+		};
+		96A572F4213931420024FFC6 /* IM */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = IM;
+			sourceTree = "<group>";
+		};
+		96A572F9213934DA0024FFC6 /* 警示器 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "警示器";
+			sourceTree = "<group>";
+		};
+		96A572FA213935B80024FFC6 /* 加载刷新 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "加载刷新";
+			sourceTree = "<group>";
+		};
+		96A572FB21393FD40024FFC6 /* 动画 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "动画";
+			sourceTree = "<group>";
+		};
 		96DD2BC32136713E00CBED28 = {
 			isa = PBXGroup;
 			children = (
 				96DD2BCE2136713E00CBED28 /* alex_h_Example */,
 				96DD2BCD2136713E00CBED28 /* Products */,
+				2CEDCFD92A2A49169DBE3211 /* Pods */,
+				ED0F6BA56FB3C5E97119EA24 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +220,10 @@
 		96DD2BCE2136713E00CBED28 /* alex_h_Example */ = {
 			isa = PBXGroup;
 			children = (
+				96A572DF2138EA6C0024FFC6 /* controller */,
+				96A572DD2138EA370024FFC6 /* EXtension */,
+				96A572DC2138EA350024FFC6 /* 功能 */,
+				96A572DB2138EA310024FFC6 /* 服务 */,
 				96DD2BCF2136713E00CBED28 /* AppDelegate.h */,
 				96DD2BD02136713E00CBED28 /* AppDelegate.m */,
 				96DD2BD22136713E00CBED28 /* ViewController.h */,
@@ -74,6 +238,14 @@
 			path = alex_h_Example;
 			sourceTree = "<group>";
 		};
+		ED0F6BA56FB3C5E97119EA24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2941CA8B98CDE502C67CEBD /* libPods-alex_h_Example.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -81,9 +253,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96DD2BE52136713F00CBED28 /* Build configuration list for PBXNativeTarget "alex_h_Example" */;
 			buildPhases = (
+				26EB962DFFD5E874903FA3A1 /* [CP] Check Pods Manifest.lock */,
 				96DD2BC82136713E00CBED28 /* Sources */,
 				96DD2BC92136713E00CBED28 /* Frameworks */,
 				96DD2BCA2136713E00CBED28 /* Resources */,
+				2D7A86E1387C6A6589151E51 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -139,15 +313,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		26EB962DFFD5E874903FA3A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-alex_h_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D7A86E1387C6A6589151E51 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-alex_h_Example/Pods-alex_h_Example-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/LBXScan/LBXScan/UI/CodeScan.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/ZBarSDK/iphone/res/zbar-back.png",
+				"${PODS_ROOT}/ZBarSDK/iphone/res/zbar-help.html",
+				"${PODS_ROOT}/ZBarSDK/iphone/res/zbar-helpicons.png",
+				"${PODS_ROOT}/ZBarSDK/iphone/res/zbar-samples.png",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CodeScan.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zbar-back.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zbar-help.html",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zbar-helpicons.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zbar-samples.png",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-alex_h_Example/Pods-alex_h_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		96DD2BC82136713E00CBED28 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96A572E22138EB890024FFC6 /* base_TabbarViewController.m in Sources */,
 				96DD2BD42136713E00CBED28 /* ViewController.m in Sources */,
+				96A572F8213934AF0024FFC6 /* base_WebViewController.m in Sources */,
+				96A572E8213920E90024FFC6 /* base_NavigationController.m in Sources */,
 				96DD2BDA2136713E00CBED28 /* alex_h_Example.xcdatamodeld in Sources */,
 				96DD2BE22136713F00CBED28 /* main.m in Sources */,
 				96DD2BD12136713E00CBED28 /* AppDelegate.m in Sources */,
+				96A572EB213920FD0024FFC6 /* base_ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +514,7 @@
 		};
 		96DD2BE62136713F00CBED28 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16746B1351804DFDE406A7B3 /* Pods-alex_h_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,6 +532,7 @@
 		};
 		96DD2BE72136713F00CBED28 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97A37C3FC6964DF6A52BB5C4 /* Pods-alex_h_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
